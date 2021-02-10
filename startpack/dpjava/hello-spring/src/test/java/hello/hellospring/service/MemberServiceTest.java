@@ -6,6 +6,7 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.test.annotation.Commit;
 
 import java.util.Optional;
 import java.util.Scanner;
@@ -34,7 +35,7 @@ class MemberServiceTest {
     void 회원가입() {
         //given 이런 상황이 주어졌을때
         Member member = new Member();
-        member.setName("hokyun");
+        member.setName("aaaa");
 
 
         //when 이렇게 실행하면
