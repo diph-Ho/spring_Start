@@ -24,7 +24,7 @@ class MemberServiceIntegrationTest {
     void 회원가입() {
         //given 이런 상황이 주어졌을때
         Member member = new Member();
-        member.setName("hokyun");
+        member.setName("aaaa");
 
 
         //when 이렇게 실행하면
@@ -40,10 +40,10 @@ class MemberServiceIntegrationTest {
     public void 중복_회원_예외() {
         //given
         Member member1 = new Member();
-        member1.setName("hokyun");
+        member1.setName("aaaa");
 
         Member member2 = new Member();
-        member2.setName("hokyun");
+        member2.setName("aaaa");
 
         //when
         memberService.join(member1);
